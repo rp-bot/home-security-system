@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>WebSocket Test</h2>
+<div id="status">Waiting for updates...</div>
+
+<script>
+  var connection = new WebSocket('ws://[IP_ADDRESS]:81');
+
+  connection.onmessage = function (e) {
+    console.log('Server: ' + e.data);
+    document.getElementById('status').innerHTML = e.data;
+  };
+
+  connection.onerror = function (error) {
+    console.log('WebSocket Error ' + error);
+  };
+
+  connection.onclose = function () {
+    console.log('WebSocket connection closed');
+  };
+</script>
+</body>
+</html>
