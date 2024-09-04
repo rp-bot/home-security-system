@@ -9,4 +9,4 @@ This project was a 2 person semester project for the Internet of Things class. T
 - Understanding how the sensors worked
 - Designing the Circuit
 - Writing Code
-All of these tasks were equally divided between [Me](https://www.linkedin.com/in/pratham-vadhulas/) and [Zachary Hayes](https://www.linkedin.com/in/zacharyhayes02/)
+All of these tasks were equally divided between [Pratham Vadhulas (Me)](https://www.linkedin.com/in/pratham-vadhulas/) and [Zachary Hayes](https://www.linkedin.com/in/zacharyhayes02/)
